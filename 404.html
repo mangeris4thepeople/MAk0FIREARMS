@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>404 — File not found | MAk0Firearms</title>
+<link rel="icon" href="favicon.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&family=VT323&display=swap" rel="stylesheet">
+<style>
+  body{
+    margin:0;min-height:100dvh;display:grid;place-items:center;text-align:center;padding:1.5rem;
+    background:radial-gradient(900px 600px at 50% 35%, rgba(38,255,110,.08), transparent 65%), #04130a;
+    color:#6dff8f;font-family:"VT323",monospace;font-size:1.4rem;
+    text-shadow:0 0 3px rgba(109,255,143,.35);
+  }
+  body::before{content:"";position:fixed;inset:0;pointer-events:none;
+    background:repeating-linear-gradient(0deg, rgba(0,0,0,.22) 0 1px, transparent 1px 3px);}
+  h1{font-family:"Press Start 2P",monospace;font-size:clamp(1.1rem,4vw,1.8rem);font-weight:400;
+    text-shadow:0 0 12px rgba(109,255,143,.55);margin:0 0 1.2rem}
+  h1::after{content:"\2588";animation:blink 1.1s steps(1) infinite;margin-left:.2em}
+  @keyframes blink{50%{opacity:0}}
+  p{color:#3fae5e;max-width:46ch;margin:0 auto 2rem}
+  a{display:inline-block;border:1px solid #1c6b35;color:#6dff8f;text-decoration:none;
+    padding:.8rem 1.6rem;font-family:"Press Start 2P",monospace;font-size:.7rem;text-transform:uppercase}
+  a:hover{box-shadow:0 0 10px rgba(109,255,143,.3)}
+</style>
+</head>
+<body>
+<div>
+  <h1>404 FILE NOT FOUND</h1>
+  <p>C:\&gt; The page you requested does not exist on this drive.<br>Abort, Retry, Fail?</p>
+  <a href="/">Return to MAk0Firearms</a>
+</div>
+</body>
+</html>

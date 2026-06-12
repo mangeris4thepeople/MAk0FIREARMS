@@ -1,0 +1,5 @@
+User-agent: *
+Allow: /
+
+# Update with your live URL after publishing:
+Sitemap: https://YOUR_USERNAME.github.io/mak0firearms/sitemap.xml
